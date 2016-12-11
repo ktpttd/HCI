@@ -1,0 +1,1030 @@
+/**********************************************************************************
+
+	Project Name: Katemi - Clean Responsive Product, Service and App Landing Page
+	Description : Responsive Stylesheet for Katemi Landing Page
+	Author: Works of Wisnu
+	Author URI: http://worksofwisnu.com
+	Version: 2.0.0
+	
+**********************************************************************************/
+/* Large desktop */
+@media (min-width: 1200px) {
+	/* General 
+	--------------------*/
+	span.rollover{
+		width: 510px;
+	}
+	
+	/* Head Banner 
+	--------------------*/
+	/* Product Teaser */
+	.product-teaser span.play-button{
+		width: 570px;
+		height: 427px;
+	}
+	
+	.product-teaser .right-desc {
+		margin-top: 120px;
+	}
+	
+	/* App Teaser */
+	.flexslider-app-teaser{
+		margin-left: 35px;	
+	}
+	
+	.app-teaser .left-desc .top-left-desc:after{
+		background-position-x: 225px;
+	}
+	
+	.app-teaser .left-desc .btm-left-desc:before{
+		background-position-x: 225px;
+	}
+	
+	.app-teaser .right-desc .top-right-desc:after{
+		background-position-x: 85px;
+	}
+	
+	.app-teaser .right-desc .btm-right-desc:before{
+		background-position-x: 85px;
+	}
+	
+	/* Content
+	--------------------*/
+	.section-subtitle {
+		width: 55%;
+	}
+	
+	/* #Featurettes 
+	--------------------*/
+	.featurettes-inner-section img {
+		margin: 20px 0 0px;
+	}
+	
+	.featurettes-inner-section .checklist li {
+		margin-bottom: 1.3em;
+		font-size: 14px;
+		line-height: 21px;
+	}
+	
+	/* #Annotations
+	--------------------*/
+	/*product dot*/
+	.product-dot1{
+		margin-left: 160px;
+		margin-top: 140px;
+	}
+	.product-dot2{
+		margin-left: 640px;
+		margin-top: 185px;
+	}
+	
+	.product-dot3{
+		margin-left: 1015px;
+		margin-top: 100px;
+	}
+	
+	.product-dot4{
+		margin-left: 255px;
+		margin-top: 235px;
+	}
+	
+	.product-dot5{
+		margin-left: 923px;
+		margin-top: 321px;
+	}
+	
+	.product-dot6{
+		margin-left: 785px;
+		margin-top: 510px;
+	}
+	
+	.product-dot7{
+		margin-left: 190px;
+		margin-top: 440px;
+	}
+	
+	.product-dot8{
+		margin-left: 585px;
+		margin-top: 753px;
+	}
+	
+	ul.annotations-features li {
+		margin-bottom: 35px;
+	}
+	
+	/*app dot*/
+	.app-dot1{
+		margin-left: 115px;
+	}
+	
+	.app-dot2{
+		margin-left: 185px;
+	}
+	
+	.app-dot3{
+		margin-left: 130px;
+	}
+	
+	.app-dot4{
+		margin-left: 300px;
+	}
+	
+	.app-dot5{
+		margin-left: 95px;
+	}
+	
+	/* Pricing Table */
+	.pricing-table.popular:before{
+		margin-left: 58px;
+	}
+
+	/* #Breakline
+	--------------------*/
+	#breakline h3:after{
+		margin-top: 0;
+		margin-left: 50px;	
+	}
+	
+	#subscribe_form input[type="text"]{
+		width: 68.3%;
+	}
+	
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	/* General */
+	span.rollover{
+		width: 308px;	
+	}
+	
+	/* #Top Nav 
+	--------------------*/
+	#top-nav{
+		padding: 0;
+		
+	}
+	
+	.navbar .navbar-brand{
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+	
+	.navbar .nav.pull-right {
+		margin-top: 6px;
+	}
+	
+	.navbar-inverse .btn-navbar{
+		margin-top: 12px;
+		background: #272b31;
+	}
+	
+	.navbar-inverse .btn-navbar:hover{
+		background: #2e9a66;
+	}
+	
+	.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus{
+		box-shadow: none;
+	}
+	
+	.navbar-inverse .nav-collapse .nav > li > a, .navbar-inverse .nav-collapse .dropdown-menu a{
+		border-radius: 0;
+		border-bottom: 1px dashed #999;
+		padding: 15px;
+	}
+	
+	.navbar-inverse .nav-collapse .nav > li:last-child > a {
+		border: none;
+	}
+	
+	.navbar-inverse .nav-collapse .nav > li > a:hover, .navbar-inverse .nav-collapse .dropdown-menu a:hover{
+		background: none;
+	}
+	
+	/* #Head Banner
+	---------------------*/
+	#head-banner{
+		margin-top: 55px;
+	}
+	
+	/*Produt Teaser */
+	.product-teaser span.play-button{
+		width: 352px;
+		height: 264px;
+	}
+	
+	.product-teaser .left-desc{
+		margin: 0;
+	}
+	
+	.product-teaser .right-desc{
+		margin: 0;
+	}
+	
+	.product-teaser .left-desc p, .product-teaser .right-desc p{
+		font-size: 12px;
+	}
+	
+	.product-teaser .left-desc:after{
+		margin-top: 0;
+	}
+	
+	.product-teaser .right-desc:before{
+		margin-bottom: 10px;
+		margin-top: 20px;
+	}
+	
+	.flexslider-low-head-banner .slides{
+		min-height: 104px;
+	}
+	
+	/*App Teaser */
+	.app-teaser img.app-image{
+		max-width: 100%;
+	}
+	
+	.app-teaser .left-desc .top-left-desc, .app-teaser .right-desc .top-right-desc, .app-teaser .left-desc .btm-left-desc, .app-teaser .right-desc .btm-right-desc {
+		margin-top: 27px;
+	}
+	
+	.app-teaser .left-desc .top-left-desc p, .app-teaser .right-desc .top-right-desc p, .app-teaser .left-desc .btm-left-desc p, .app-teaser .right-desc .btm-right-desc p{
+		font-size: 12px;
+	}
+	
+	.app-teaser .left-desc .top-left-desc:after, .app-teaser .left-desc .btm-left-desc:before{
+		background-position-x: 120px;
+	}
+	
+	.app-teaser .right-desc .top-right-desc:after, .app-teaser .right-desc .btm-right-desc:before{
+		background-position-x: 20px;
+	}
+	
+	/* #Featurettes
+	----------------------*/
+	.row-fluid.featurettes-inner-section [class*="span"]{
+		width: 100%;
+		margin-left: 0;
+	}
+	
+	/* featurettes flexslider */
+	.featurettes-inner-section img{
+		margin: 0 auto;
+	}
+	
+	/* #Annotations
+	----------------------*/
+	.annotation-link {
+		width: 15px;
+		height: 15px;
+	}
+	
+	.medium-btn{
+		padding: 15px 20px;
+	}
+	
+	/* Product Dots */
+	.product-dot1 {
+		margin-left: 98px;
+		margin-top: 88px;
+	}
+	
+	.product-dot2 {
+		margin-left: 395px;
+		margin-top: 115px;
+	}
+	
+	.product-dot3 {
+		margin-left: 625px;
+		margin-top: 65px;
+	}
+	
+	.product-dot4 {
+		margin-left: 155px;
+		margin-top: 145px;
+	}
+	
+	.product-dot5 {
+		margin-left: 572px;
+		margin-top: 200px;
+	}
+	
+	.product-dot6 {
+		margin-left: 485px;
+		margin-top: 315px;
+	}
+	
+	.product-dot7 {
+		margin-left: 120px;
+		margin-top: 270px;
+	}
+	
+	.product-dot8 {
+		margin-left: 363px;
+		margin-top: 467px;
+	}
+
+	/*App Dots */
+	.left-annotation, .right-annotation{
+		margin-top: 0;	
+	}
+	
+	.app-dot1 {
+		margin-left: 62px;
+		margin-top: 90px;
+	}
+	
+	.app-dot2 {
+		margin-left: 120px;
+		margin-top: 165px;
+	}
+	
+	.app-dot3 {
+		margin-left: 75px;
+		margin-top: 270px;
+	}
+	
+	.app-dot4 {
+		margin-left: 210px;
+		margin-top: 325px;
+	}
+	
+	.app-dot5 {
+		margin-left: 50px;
+		margin-top: 385px;
+	}
+	
+	ul.annotations-features{
+		text-align: center;
+		margin: 0;
+	}
+	
+	.annotations-features-icon{
+		float: none;
+		margin: 0;
+	}
+	
+	.annotations-features-icon img{
+		margin: 0 auto;
+		display: block;
+	}
+	
+	/* Toggle FAQ */
+	a.toggle-button:before{
+		display: none;
+	}
+	
+	/* Pricing Table */
+	.pricing-table.popular:before{
+		margin-left: 6px;
+	}
+	
+	/* #Breakline
+	--------------------*/
+	#subscribe_form input[type="text"]{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	
+	.subscribe-submit{
+		width: 100% !important;
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+
+/* Landscape iphone5 and down */
+@media (max-width: 568px) {
+	/* General */
+	h1 {
+	  font-size: 38.5px;
+	}
+	
+	h2 {
+	  font-size: 31.5px;
+	}
+	
+	h3 {
+	  font-size: 24.5px;
+	}
+	
+	h4 {
+	  font-size: 17.5px;
+	}
+	
+	h5 {
+	  font-size: 15.5px;
+	}
+	
+	h6 {
+	  font-size: 11.9px;
+	}
+
+	section{
+		padding: 20px;
+	}
+	
+	hr.content-hr{
+		width: 90%;
+		margin: 0 auto;
+	}
+	
+	.checklist{
+		text-align: left !important;
+	}
+	
+	span.rollover{
+		width: 528px;
+		left: 0;
+	}
+	
+	/* #Top Nav 
+	--------------------*/
+	#top-nav{
+		padding: 0 20px;
+		
+	}
+	
+	.navbar .navbar-brand{
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+	
+	.navbar .nav-collapse .nav.pull-right{
+		margin-bottom: 0;
+	}
+	
+	.navbar-inverse .btn-navbar{
+		margin-top: 12px;
+		background: #272b31;
+	}
+	
+	.navbar-inverse .btn-navbar:hover{
+		background: #2e9a66;
+	}
+	
+	.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus{
+		box-shadow: none;
+	}
+	
+	.navbar-inverse .nav-collapse .nav > li > a, .navbar-inverse .nav-collapse .dropdown-menu a{
+		border-radius: 0;
+		border-bottom: 1px dashed #999;
+		padding: 15px;
+	}
+	
+	.navbar-inverse .nav-collapse .nav > li:last-child > a {
+		border: none;
+	}
+	
+	.navbar-inverse .nav-collapse .nav > li > a:hover, .navbar-inverse .nav-collapse .dropdown-menu a:hover{
+		background: none;
+	}
+	
+	/* #Head Banner
+	---------------------*/
+	#head-banner{
+		margin-top: 55px;
+		text-align: center;
+	}
+	
+	.head-cta .col-xs-6{
+		width: 45%;
+		display: inline-block;
+		margin-left: 20px;
+	}
+	
+	/*Product Teaser */
+	.product-teaser{
+		margin-top: 0;
+	}
+	
+	.product-teaser .left-desc:after, .product-teaser .right-desc:before{
+		display: none;
+	}
+	
+	.product-teaser .left-desc {
+		margin-bottom: 20px;
+	}
+	
+	.product-teaser .right-desc {
+		margin-top: 20px;
+	}
+	
+	.product-teaser span.play-button{
+		width: 105px;
+		margin-left: -50px;
+		margin-top: 25px;
+	}
+	
+	.flexslider-low-head-banner .slides{
+		min-height: 236px;
+	}
+	
+	.flexslider-low-head-banner .slides img {
+		width: 30% !important;
+		margin: 20px auto !important;
+	}
+	
+	.testimonial{
+		margin-top: 20px;
+	}
+	
+	.testimonial:before{
+		background-position: top center;
+		left: auto;
+	}
+	
+	.testimonial:after{
+		background-position: top center;
+		right: auto;
+		margin-top: 20px;
+	}
+	
+	.testi {
+		padding-top: 40px;
+	}
+	
+	.author{
+		float: none !important;
+	}
+	
+	/*App Teaser */
+	
+	hr.title-line{
+		width: 80%;
+	}
+	
+	.app-teaser .left-desc .top-left-desc:after, .app-teaser .left-desc .btm-left-desc:before, .app-teaser .right-desc .top-right-desc:after, .app-teaser .right-desc .btm-right-desc:before{
+		display: none;
+	}
+	
+	.flexslider-app-teaser{
+		margin: 20px 0;
+	}
+	
+	.app-teaser img.app-image {
+		position: relative;
+	}
+	
+	.app-teaser .left-desc .top-left-desc, .app-teaser .right-desc .top-right-desc, .app-teaser .left-desc .btm-left-desc, .app-teaser .right-desc .btm-right-desc{
+		margin: 20px 0;
+		display: inline-block;
+	}
+	
+	/* #Marketing
+	---------------------*/
+	#marketing{
+		text-align: center;	
+		margin-top: 0 !important;
+	}
+	
+	.marketing-content{
+		margin-bottom: 20px;	
+	}
+	
+	/* #Featurettes
+	---------------------*/
+	#featurettes{
+		text-align: center;	
+	}
+	
+	.featurettes-content{
+		margin-bottom: 40px;
+	}
+	
+	.featurettes-inner-section .col-xs-6{
+		width: 50%;
+		margin-left: 0;
+		display: inline-block;
+		float: left;
+	}
+	
+	
+	/* #Annotations
+	---------------------*/
+	#annotations{
+		text-align: center;
+	}
+	
+	.annotations-features-icon {
+		float: none;
+		margin-right: 0;
+	}
+	
+	.right-annotation h6{
+		margin-top: 0 !important;
+	}
+	
+	.right-annotation .checklist{
+		margin: 0 80px;
+	}
+	
+	/* #Annotations
+	----------------------*/
+	.annotation-link {
+		width: 15px;
+		height: 15px;
+	}
+	
+	/* Product Dots */
+	.product-dot1 {
+		margin-left: -190px;
+		margin-top: 65px;
+	}
+	
+	.product-dot2 {
+		margin-left: 25px;
+		margin-top: 85px;
+	}
+	
+	.product-dot3 {
+		margin-left: 190px;
+		margin-top: 50px;
+	}
+	
+	.product-dot4 {
+		margin-left: -155px;
+		margin-top: 105px;
+	}
+	
+	.product-dot5 {
+		margin-left: 145px;
+		margin-top: 140px;
+	}
+	
+	.product-dot6 {
+		margin-left: 90px;
+		margin-top: 235px;
+	}
+	
+	.product-dot7 {
+		margin-left: -180px;
+		margin-top: 200px;
+	}
+	
+	.product-dot8 {
+		margin-left: -10px;
+		margin-top: 330px;
+	}
+
+	/*App Dots */
+	.app-dot1 {
+		margin-left: -65px;
+		margin-top: 120px;
+	}
+	
+	.app-dot2 {
+		margin-left: 5px;
+		margin-top: 215px;
+	}
+	
+	.app-dot3 {
+		margin-left: -50px;
+		margin-top: 355px
+	}
+	
+	.app-dot4 {
+		margin-left: 120px;
+		margin-top: 425px;
+	}
+	
+	.app-dot5 {
+		margin-left: -80px;
+		margin-top: 510px
+	}
+	
+	/* #Lower Content
+	---------------------*/
+	#lower-content{
+		text-align: center;	
+	}
+	
+	/* Pricing Table */
+	.pricing-table{
+		width: 55%;
+		margin: 20px auto;
+	}
+	
+	.pricing-table.popular:before {
+		margin-left: 67px;
+	}
+	
+	/* Team */
+	ul.team li {
+		margin-bottom: 40px;
+	}
+	
+	ul.team li img{
+		float: none;
+		margin-right: 0;
+		margin-bottom: 0
+	}
+	
+	/* Toggle Content */
+	.toggle-content{
+		text-align: left;
+	}
+	
+	/* #Breakline
+	---------------------*/
+	#breakline h3{
+		padding: 0;	
+	}
+	
+	#breakline h3:after{
+		display: none;
+	}
+	
+	#subscribe_form input[type="text"]{
+		width: 77%;
+		margin-right: 5px;
+	}
+	
+	.subscribe-text{
+		margin-bottom: 20px;
+	}
+	
+	/* #Footer
+	---------------------*/
+	#footer{
+		text-align: center;
+	}
+	
+	#footer .social{
+		float: none !important;
+	}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	/* General */
+	span.rollover{
+		width: 440px;
+	}	
+	
+	/* App Teaser */
+	.app-teaser img.app-image {
+		width: 100%;
+	}
+	
+	/* #Lower Content
+	---------------------*/
+	.pricing-table.popular::before {
+		margin-left: 44px;
+	}
+	
+	/* #Annotations
+	---------------------*/	
+	/* Product Dots */
+	.product-dot1 {
+		margin-left: -160px;
+		margin-top: 50px;
+	}
+	
+	.product-dot2 {
+		margin-left: 18px;
+		margin-top: 70px;
+	}
+	
+	.product-dot3 {
+		margin-left: 155px;
+		margin-top: 40px;
+	}
+	
+	.product-dot4 {
+		margin-left: -135px;
+		margin-top: 85px;
+	}
+	
+	.product-dot5 {
+		margin-left: 125px;
+		margin-top: 115px;
+	}
+	
+	.product-dot6 {
+		margin-left: 70px;
+		margin-top: 185px;
+	}
+	
+	.product-dot7 {
+		margin-left: -150px;
+		margin-top: 160px;
+	}
+	
+	.product-dot8 {
+		margin-left: -10px;
+		margin-top: 280px;
+	}
+
+	/*App Dots */
+	.app-dot1 {
+		margin-left: -65px;
+		margin-top: 125px;
+	}
+	
+	.app-dot2 {
+		margin-left: 5px;
+		margin-top: 212px;
+	}
+	
+	.app-dot3 {
+		margin-left: -50px;
+		margin-top: 355px
+	}
+	
+	.app-dot4 {
+		margin-left: 120px;
+		margin-top: 430px;
+	}
+	
+	.app-dot5 {
+		margin-left: -80px;
+		margin-top: 510px;
+	}
+	
+	/* #Breakline
+	---------------------*/
+	#subscribe_form {
+		padding-left: 0;
+		margin-top: 0;
+	}
+	
+	#subscribe_form input[type="text"]{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	
+	.subscribe-submit{
+		width: 100% !important;
+	}
+}
+
+/* Portrait phones and down */
+@media (max-width: 320px) {
+	/* General */
+	span.rollover{
+		width: 280px;
+		height: 244px;
+	}	
+	
+	/* #Head Banner
+	---------------------*/
+	.head-cta .col-xs-6{
+		width: 100%;
+		margin: 10px 0;
+	}
+	
+	.head-cta .col-xs-6 a{
+		float: none !important;
+	}
+	
+	/* Product Teaser */
+	.product-teaser span.play-button{
+		margin-top: -50px;
+	}
+	
+	.flexslider-low-head-banner .slides img{
+		width: 60% !important;
+		display: inline-block;
+	}
+	
+	.testimonial {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.testimonial::before ,.testimonial::after{
+		margin-left: -7px;
+	}
+	
+	/* Content
+	--------------------*/
+	.section-subtitle {
+		width: 100%;
+		font-size: smaller;
+	}
+	
+	/* Marketing */
+	.marketing-content {
+		margin-bottom: 40px;
+	}
+	
+	/* #Featurettes
+	----------------------*/
+	.featurettes-inner-section .col-xs-6{
+		width: 100%;
+		margin-left: 0;
+	}
+	
+	/* featurettes flexslider */
+	.featurettes-inner-section img{
+		margin: 0 auto;
+	}
+	
+	.featurettes-inner-section .checklist {
+		margin-top: 20px;
+	}
+	
+	
+	/* #Annotations
+	---------------------*/
+	.right-annotation .checklist{
+		margin: 0 20px;
+	}
+	
+	/* Product Dots */
+	.product-dot1 {
+		margin-left: -100px;
+		margin-top: 30px;
+	}
+	
+	.product-dot2 {
+		margin-left: 10px;
+		margin-top: 40px;
+	}
+	
+	.product-dot3 {
+		margin-left: 100px;
+		margin-top: 20px;
+	}
+	
+	.product-dot4 {
+		margin-left: -80px;
+		margin-top: 55px;
+	}
+	
+	.product-dot5 {
+		margin-left: 75px;
+		margin-top: 70px;
+	}
+	
+	.product-dot6 {
+		margin-left: 45px;
+		margin-top: 115px;
+	}
+	
+	.product-dot7 {
+		margin-left: -100px;
+		margin-top: 100px;
+	}
+	
+	.product-dot8 {
+		margin-left: -10px;
+		margin-top: 175px;
+	}
+
+	/*App Dots */
+	.app-dot1 {
+		margin-left: -62px;
+		margin-top: 110px;
+	}
+	
+	.app-dot2 {
+		margin-left: 5px;
+		margin-top: 195px;
+	}
+	
+	.app-dot3 {
+		margin-left: -50px;
+		margin-top: 330px
+	}
+	
+	.app-dot4 {
+		margin-left: 110px;
+		margin-top: 400px;
+	}
+	
+	.app-dot5 {
+		margin-left: -75px;
+		margin-top: 475px;
+	}
+	
+	/* #Lower Content
+	--------------------*/
+	/* Pricing Table */
+	.pricing-table {
+		width: 75%;
+	}
+	
+	.pricing-table.popular::before {
+		margin-left: 28px;
+	}	
+	
+	/* Team */
+	.team-name{
+		font-size: 14px;
+	}
+	
+	/* FAQ */
+	a.toggle-button:before{
+		display: none;
+	}
+	
+	/* #Breakline
+	--------------------*/
+	#subscribe_form input[type="text"] {
+		width: 100%;
+	}
+
+}
