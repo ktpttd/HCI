@@ -55,7 +55,7 @@ var tour = {
       target: 'tour-7',
       placement: 'left',
       title: 'Toggle FAQ',
-      content: 'Click the "questions" to toggle the anwers/description',
+      content: 'Click the "questions" to toggle the answers/description',
     },
     {
       target: 'tour-8',
@@ -67,7 +67,7 @@ var tour = {
       target: 'tour-9',
       placement: 'top',
       title: 'Work Subscribe Form',
-      content: 'As well as the contact form. The subscribe form is working, and you don\'t need any online database to collect your subscribers email address. Perfect!<hr> <i>That\'s all folks, now go press Done and the Purchase button to get this template! ;)</i>',
+      content: 'We will send the newest information to you. Thanks for your subscribing.',
       arrowOffset: 130,
       yOffset: 25
     }
