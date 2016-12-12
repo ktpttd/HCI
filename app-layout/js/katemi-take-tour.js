@@ -9,8 +9,8 @@ var tour = {
   steps: [
     {
       target: 'tour-1',
-      title: 'Welcome to Katemi!',
-      content: 'Hey there! This is the example tour feature of Katemi Landing Page. I will guide you through the template to see what will you get from Katemi Landing Page',
+      title: 'Welcome to Food Live!',
+      content: 'Lets begin! Food Live is the perfect appilcation to order the food through your location.',
       placement: 'bottom',
       xOffset: 300,
       arrowOffset: 140
@@ -40,15 +40,15 @@ var tour = {
     {
       target: 'tour-5',
       placement: 'top',
-      title: 'Image with PrettyPhoto Link',
+      title: 'Something beauty from Food Live :D',
       content: 'Hover the image below and click to show the PrettyPhoto plugin work.',
       arrowOffset: 140
     },
     {
       target: 'tour-6',
       placement: 'top',
-      title: 'Mobile App Slideshow',
-      content: 'Perfect to show your customers how it works on mobile',
+      title: 'Some pictures in-app',
+      content: 'How Food Live works on mobile',
       arrowOffset: 50
     },
     {
@@ -116,7 +116,7 @@ init = function() {
         target: startBtnId,
         placement: 'left',
         title: 'Click Take a Tour',
-        content: 'Click to see the Katemi take a tour feature in action!<hr><i>This feature is great for introducing your customers on your website/service/product or app. :)',
+        content: 'Click to see the Food Live take a tour feature in action!',
         yOffset: -25,
         arrowOffset: 20,
         width: 240
